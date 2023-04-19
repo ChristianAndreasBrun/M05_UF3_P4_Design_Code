@@ -4,10 +4,8 @@ using System.Text;
 
 namespace Design_Code
 {
-    public struct Review
+    public abstract class Review
     {
-        public string user;
-        public string product;
         public string comment;
         public int rating;
     }

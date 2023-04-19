@@ -12,8 +12,13 @@ namespace Design_Code
         public string password;
         protected string telephone;
         private string Address;
-        private string NIF;
+        private string DNI;
 
         public List<WishList> wishList;
+
+        public bool Payment(int product)
+        {
+            return true;
+        }
     }
 }

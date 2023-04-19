@@ -4,10 +4,8 @@ using System.Text;
 
 namespace Design_Code
 {
-    public struct WishList
+    public abstract class WishList
     {
-        public string user;
-        public string product;
-        public int amount;
+        public Product productList;
     }
 }
