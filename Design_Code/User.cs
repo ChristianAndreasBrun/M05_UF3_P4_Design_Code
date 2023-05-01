@@ -15,10 +15,16 @@ namespace Design_Code
         private string DNI;
 
         public List<WishList> wishList;
+        public List<Address> addressList;
 
         public bool Payment(int product)
         {
             return true;
         }
+    }
+
+    public abstract class WishList
+    {
+        public Product productList;
     }
 }
